@@ -1,0 +1,41 @@
+.user_signups {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+  }
+
+  .user_signup_subtext {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    
+    color: #4D4D4D;
+    
+  }
+  
+
+  .user_signup_item{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #8C97AC;
+  }

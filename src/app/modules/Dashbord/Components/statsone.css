@@ -1,0 +1,21 @@
+.card_button1{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px; 
+    color: rgb(4, 255, 0);
+    background-color: #0FBC49;
+    opacity: 50%;
+    outline: none;
+     
+}
+i.icon {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    /* background: #0BE05C; */
+    /* opacity: 0.5; */
+    border: none;
+  }
+

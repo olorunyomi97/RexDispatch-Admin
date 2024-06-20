@@ -1,0 +1,87 @@
+/* overriding aside menu styling */
+.aside-menu {
+  background-color: #00114e;
+}
+
+.aside-menu-wrapper {
+  background-color: #00114e;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link {
+  background-color: rgba(0, 171, 118, 0.1);
+  border-left: 4px solid #0be05c;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-open > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-open > .menu-link {
+  background-color: #00114e;
+}
+
+.aside-menu
+  .menu-nav
+  > .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover
+  > .menu-heading,
+.aside-menu
+  .menu-nav
+  > .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover
+  > .menu-link {
+  background-color: #00114e;
+}
+
+.aside-menu
+  .menu-nav
+  > .menu-item
+  .menu-submenu
+  .menu-item.menu-item-active
+  > .menu-heading,
+.aside-menu
+  .menu-nav
+  > .menu-item
+  .menu-submenu
+  .menu-item.menu-item-active
+  > .menu-link {
+  background-color: rgba(0, 171, 118, 0.1);
+  border-left: 4px solid #0be05c;
+}
+
+.aside-menu
+  .menu-nav
+  > .menu-item
+  .menu-submenu
+  .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover
+  > .menu-heading,
+.aside-menu
+  .menu-nav
+  > .menu-item
+  .menu-submenu
+  .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover
+  > .menu-link {
+  background-color: rgba(0, 171, 118, 0.1);
+}
+
+.brand-dark .brand {
+  background-color: #00114e;
+}
+
+/* body  */
+body {
+  background-color: rgba(0, 89, 222, 0.05);
+}
+@font-face {
+  font-family: "Circular Std";
+  src: local("Circular Std"),
+    url(./app/assets/fonts/CircularStd-Book.ttf) format("truetype");
+}
+
+/* bootstrap table  */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 1);
+}
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: rgba(249, 250, 251, 1);
+}
+
+thead {
+  background-color: rgba(240, 242, 244, 1) !important;
+}

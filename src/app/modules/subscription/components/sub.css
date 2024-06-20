@@ -1,0 +1,48 @@
+.new_plan_btn {
+    background: #0BE05C;
+    border: #0BE05C;
+    border-radius: 3px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.new_plan_btn:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    /* padding: 14px 28px; */
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.subplan_input {
+    border: 1.4px solid #BBBED7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.3rem + 2px);
+    padding: 0.65rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border-radius: 0.42rem;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
